@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="Stylesheet" href="main.css">
+    <script type="text/javascript">
+        function menu() {
+            document.getElementById('sidebar').classList.toggle('active')
+        }
+    </script>
+</head>
+
+<body>
+
+    <section>
+        <!-- header -->
+        <div class="navbar">
+            <ul>
+                <li> <img src="https://deepthought.education/assets/images/logo/logo.svg" class="logo">
+                </li>
+                <li><i class="fa-solid fa-house-chimney"></i></li>
+                <li><i class="fa-solid fa-binoculars"></i></li>
+                <li><i class="fa-solid fa-screwdriver-wrench"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li><i class="fa-solid fa-circle"></i></li>
+                <li><span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                </li>
+            </ul>
+        </div>
+        <!-- header end -->
+    </section>
+
+    <!-- main -->
+    <main>
+
+        <!-- Sidebar -->
+
+        <div id="sidebar" onclick="menu()">
+            <h3>Assessments</h3>
+            <div class="s-bar">
+
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="s-bar2">
+                <h6>
+                    demo Task 1 and 2
+                </h6>
+                <hr>
+            </div>
+            <div class="s-bar3">
+
+                <ol>
+                    <li>About</li>
+                    <hr>
+                    <li>Images</li>
+                    <hr>
+                    <li>TextBox</li>
+                    <hr>
+                    <li>Brif study</li>
+                    <hr>
+                    <li>video </li>
+                    <hr>
+                    <li>Audio</li>
+                    <hr>
+                    
+                    
+                    
+
+                </ol>
+            </div>
+        </div>
+
+
+        <!-- sidebar-end -->
+
+        <!-- container -->
+
+        <div class="container">
+            <p class="heading-1">Challenges Of New Project</p>
+
+            <h3>Demo Task</h3>
+
+            <div class="grid">
+                <div class="grid-item item-1">
+                    <p>About</p>
+
+                    <h5>Robotics is a branch of engineering that involves the conception, design, manufacture and operation of robots. The objective of the robotics field is to create intelligent machines that can assist humans in a variety of ways.
+
+                        Robotics can take on a number of forms. A robot may resemble a human, or it may be in the form of a robotic application, such as robotic process automation (RPA), which simulates how humans engage with software to perform repetitive, rules-based tasks.
+                        
+                        While the field of robotics and exploration of the potential uses and functionality of robots have grown substantially in the 20th century, the idea is certainly not a new one.Robotics is a branch of engineering that involves the conception, design, manufacture and operation of robots. The objective of the robotics field is to create intelligent machines that can assist humans in a variety of ways.
+
+                        Robotics can take on a number of forms. A robot may resemble a human, or it may be in the form of a robotic application, such as robotic process automation (RPA), which simulates how humans engage with software to perform repetitive, rules-based tasks.
+                        
+                        While the field of robotics and exploration of the potential uses and functionality of robots have grown substantially in the 20th century, the idea is certainly not a new one.</p></h5>
+                </div>
+
+                <div class="grid-item item-2">
+                    <p>Image</p>
+                    
+                    <a href="">
+                    <img src="./image1.jpg" alt="Image" width="500" height="600">
+                    </a>
+                
+                    
+                    
+                </div>
+
+                <div class="grid-item item-3">
+                    <p>TextView</p>
+                    <div class="n-5">
+                        <input type="text" placeholder="Reflect as per given guidelines" class="text-9">
+                    </div>
+                </div>
+                <div class="grid-item item-4">
+                    <p>Brif Study</p>
+                    <iframe src="https://drive.google.com/file/d/1Pxw83bTKE3KkOyYnwm1u6DSVjntSrNTp/preview?usp=sharing"
+                        class="wiki">
+
+                    </iframe>
+                </div>
+
+
+
+                <div class="grid-item item-5">
+                    
+                    <p>Video</p>
+                    <video width="600" controls>
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML video.
+                      </video>
+                    
+                </div>
+
+                <div class="grid-item item-6">
+                    <p>Audio</p>
+
+                    <audio controls autoplay muted>
+                       <source src="./song.ogg" type="audio/ogg">
+                       <source src="./song.mp3" type="audio/mpeg">
+                         Your browser does not support the audio element.
+                    </audio>
+                        
+                            
+                            
+            
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div>
+            <input type="button" value="Next" class="btn-4">
+        </div>
+
+        <!-- container-end -->
+
+    </main>
+    <!-- main end -->
+
+
+    <script href="script.js"></script>
+</body>
+
+</html>
